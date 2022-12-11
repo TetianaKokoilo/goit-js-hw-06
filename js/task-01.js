@@ -1,5 +1,5 @@
 const list = document.querySelector('#categories');
-console.dir(list.children);
+// console.dir(list.children);
 
 const items = [...list.children];
 
