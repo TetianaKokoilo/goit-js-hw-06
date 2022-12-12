@@ -24,8 +24,6 @@ const markup = images.map(({
 </li>`).join(' ')
 
 
-
-
 list.insertAdjacentHTML('beforeend',markup)
 console.log(markup);
 
