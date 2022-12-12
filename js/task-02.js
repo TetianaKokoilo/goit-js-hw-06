@@ -9,7 +9,7 @@ const ingredients = [
 
 const list = document.querySelector('#ingredients');
 list.textContent = 'ingredients';
-console.dir(list);
+// console.dir(list);
 
 const markup = ingredients.map(ingredient => {
   const liEl = document.createElement("li");
@@ -19,4 +19,4 @@ const markup = ingredients.map(ingredient => {
   
 })
 list.append(...markup);
-console.dir(markup);
+console.log(markup);
