@@ -30,4 +30,5 @@ button {
   justify-content: center;
   gap: 20px;
   list-style: none;
+  height: max-content;
 }
