@@ -1,7 +1,7 @@
 const changeColor = document.querySelector('.change-color');
 const textColor = document.querySelector('.color');
-// console.dir(changeColor);
-// console.dir(textColor);
+console.dir(changeColor);
+console.dir(textColor);
 
 changeColor.addEventListener('click', () => {
 
