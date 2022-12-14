@@ -20,7 +20,7 @@ const markup = images.map(({
   url,
   alt
 }) => `<li>
-    <img src="${url}" alt="${alt}" width = '300'>
+    <img src="${url}" alt="${alt}" width = '275' height = '175'>
 </li>`).join(' ')
 
 
