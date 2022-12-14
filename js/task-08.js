@@ -11,11 +11,9 @@ function onSubmit(evt) {
   console.log('email', email.value);
   console.log('password', password.value);
 
-    if (form.email.value || form.password.value === '' ) {
+    if (!email.value || !password.value) {
    alert ( "Всі поля повинні бути заповнені." );
-    } else {
-      return evt.currentTarget.elements
-  }
-  // form.reset()
+    } 
+  form.reset()
   
 }
